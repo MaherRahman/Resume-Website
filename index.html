@@ -4,68 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maher Rahman | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,400i,700" rel="stylesheet">
+    <!-- make sure the styles document is in the same scope/folder as the html doc for this work -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- // Intro -->
     <header>
-    <!-- Need an image for myself -->
-        <img src="" alt="Maher">
-        <h1>Maher Rahman</h1>
-        <h2>Computer Science</h2>
-        <p> I am a Computer Science/Neuroscience honors student at the University of Texas. This resume website is
-        to help me practice using HTML to create the content of the page, and to practice using CSS and javascript 
-        to get a better feel for how these three Front end languages work. </p>
+        <div class="content">
+            <img class="profile-img" src="Maher-Rahman.jpg" alt="Maher Rahman">
+            
+            <div class="column-wide">
+              <h1>Maher Rahman</h1>
+              <h2>UT Computer Science/Neuroscience honors</h2>
+              <p> As a recent admit into Computer Science, I'm focusing on learning new programming languages such as HTML, CSS, and Javascript for the front end, as well as other languages such as Kotlin, Java, Python to further compliment my programming interests. I really enjoy studying the visual system in the human brain, and I hope to use my knowledge of programming to possibly advance current Computer Vision models, as well as possibly make a more functional visual model of the brain. </p>
+            </div>
+        </div>
     </header>
     
-    <main> 
+    <main>
         <!-- // Work Experience -->
-        <section>
-            <h2>Work Experience</h2>
+        <section class="work">
+            <div class="content">
+                <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
+                <!-- Job Details -->
+                <div class="column-narrow">
+                    <h3>Dell Medical School Health Leadership Apprentice</h3>
+                    <p>Research assistant/Content curator</p>
+                    <p>May 2020 - Present</p>
+                </div>
+                <div class="column-wide">
+                  <p>Key contributions:</p>
+                    <ul>
+                        <li> Created class workshops regarding VR/AR, AI, IOT, and Web/App development for First Year Medical Students with Mary Myers, Kamran Zai, Dr. Spicer. Dr. Bajaj, Dr. Gates among others</li>
+                        <li>Began production on a mobile application for Doctors to prescribe to patient as part of their treatments. More can be found here on my github page <a href="https://github.com/MaherRahman/PrescribedApp" target = _blank > </a></li>
+                        <li>Created and curated content for a first year medical school course intended to introduce the topics of various technologies to students. Created a visual pre-class page using SugarCube and Twine regarding AR/VR technologies.</li>
+                        <li>Founded a workshop regarding stigmas in healthcare for Homelessness and LGBTQIA+ populations in Austin with a small team of other apprentices</li>
+                    </ul>
+                </div>
+                
+                <!-- Job Details -->
+                <div class="column-narrow">
+                    <h3>Building-Wide intelligence - AI lab</h3>
+                    <p>Research Assistant</p>
+                    <p>Summer 2017 - Fall 2017</p>
+                </div>
+                
+                <div class="column-wide">
+                    <p>
+                      Shadowed other lab assistants in their works with the autonomous Segbots, learning languages such as ROS and C++ to toy around with the robots.
+                    </p>
+                </div>
+                    
+                         <!-- Job Details -->
+                <div class="column-narrow">
+                    <h3>Computational Biology Lab</h3>
+                    <p>Research Assistant</p>
+                    <p>Spring 2017 - Summer 2017</p>
+                </div>
+                
+                <div class="column-wide">
+                    <p>
+                      Helped maintain old code compiled in Sun Workshop into a new version of Java, for better readibility and usability
+                    </p>
+                    <p> Converted output from the java program into a format that R-Studio can use to help visualize data using an open source project called FastR</p>
+
+                    
+                </div>
+                
+                <!-- Job Details -->
+                <div class="column-narrow">
+                    <h3>Commissioner Shea's Office</h3>
+                    <p>Intern</p>
+                    <p>Fall 2016 - Spring 2017</p>
+                </div>
+                <div class="column-wide">
+                    <p>Pushed an Initiative at the University of Texas at Austin to become more energy efficient with the A/C by switching from clean drinking water to reclaimed water.</p>
+                    <p>Key contributions:</p>
+                    <ul>
+                        <li>Used my position as a member of Student Government to rally student body support for this initiative of switching water usage</li>
+                        <li>Worked with members of the Green Fee Committee, as well as the Office of Sustainability to push this initiative into viability </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="Projects">
+            <div class="content">
+                <h2>Projects/Presentations</h2>
+                
+                 <div class="column-narrow">
+                    <h3>Neuroscience Undergraduate Reading Program</h3>
+                    <p>Research Presentation</p>
+                    <p>Spring 2018</p>
+                </div>
+                <div class = "column-wide">
+                    <p> Presented a poster session over the concept of Object Recognition in the brain. Covering the topics of how it is done, and what might be learned from studying the human brain and how research here can affect other areas of the world such as Computer Vision.
+                    </p>
+                </div>
+                
+                 <div class="column-narrow">
+                    <h3>UT Austin Science Sprints</h3>
+                    <p>Participant</p>
+                    <p>Spring 2018</p>
+                </div>
+                <div class = "column-wide">
+                    <p> Used Pokemon Go to create a lesson on phylogenetics intended for Elementary School Students
+                    </p>
+                </div>
+                
+                <div class="column-narrow">
+                    <h3>Major League Hacking Prime</h3>
+                    <p>Hackathon participant</p>
+                    <p>Spring 2017</p>
+                </div>
+                <div class = "column-wide">
+                    <p> Created software for Jibo, a small robot assistant to associate emotions with the color of an image it is presented using Google's Cloud Color API
+                    </p>
+                </div>
+
             
-            <!-- Add as many paragraphs as I need. -->
-            <p>Job summary.</p>
-            
-            <p>Optional list:</p>
-            <ul>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for</li>
-            </ul>
-            <!-- end of Job Details block. -->
-            
+          </div>
         </section>
 
 
         <!-- // Education -->
-        <section>
-            <h2>Education</h2>
+        <section class="education">
+            <div class="content">
+                <h2>Education</h2>
 
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
-            
-            <p>Summary.</p>
-            <!-- End of school details. -->
+                <!-- School details: copy this block to add more schools. -->
+                <h3>The University of Texas at Austin - Austin, Tx</h3>
+                <h4>B.S. Computer Science honor</h4>
+                <h5>Minor: Neuroscience, Philosophy, Pre-health Certificate</h5>
+                <p>GPA: 3.76</p>
+            </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer>
-        <h2> Feel free to reach out to me! </h2>
-        
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:MaherRahman1@gmail.com">MaherRahman1@gmail.com</a>
-            <a href="https://github.com/MaherRahman" target="_blank">https://github.com/MaherRahman</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Facebook</a>
-        </div>
+        <div class="content">
+            <h2>Feel free to message me!</h2>
+            
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="MaherRahman1@gmail.com">MaherRahman1@gmail.com</a>
+                <a href="https://github.com/MaherRahman">Github</a>
+                <a href="https://www.linkedin.com/in/maher-rahman-498277136/">LinkedI
+                </a>
+                <a href="https://www.facebook.com/maher.rahman.7">Facebook</a>
+            </div>
 
-        <p>Copyright 2018 by Maher Rahman</p>
+            <p>Copyright 2018 Maher Rahman</p>
+        </div>
     </footer>
 </body>
 </html>
