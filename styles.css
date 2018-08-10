@@ -1,13 +1,5 @@
 /* Global styles
 ------------------------------------*/
-/* border box fix */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -48,6 +40,11 @@ h2 {
   min-height: 175px;
 }
 
+.title {
+  text-align: center;
+  max-height: 30em;
+}
+
 
 
 /* Header & Footer
@@ -68,10 +65,8 @@ header {
   text-align: center;
 }
 .profile-img {
-  /*width: 300px;*/
+  width: 35em;
   border-radius: 50%;
-  float: left;
-  margin-right: 30px;
 }
 
 /* Footer styles only */
