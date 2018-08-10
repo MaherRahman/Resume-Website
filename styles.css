@@ -10,6 +10,11 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+img:hover{
+    transform: scale(1.05);
+}
+
 h1, h2 {
   font-family: "Intro Rust", "Caveat", cursive;
   font-weight: 400;
@@ -33,6 +38,8 @@ h2 {
   float: left;
   padding-right: 3%;
   min-height: 175px;
+
+
 }
 .column-wide {
   width: 62%;
