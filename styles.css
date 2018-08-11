@@ -26,6 +26,11 @@ h2 {
   font-size: 1.66em;
   margin-top: 0;
 }
+
+h3 {
+  margin: 0;
+}
+
 .content {
   max-width: 950px;
   margin: 0 auto;
@@ -37,14 +42,11 @@ h2 {
   width: 35%;
   float: left;
   padding-right: 3%;
-  min-height: 175px;
-
-
 }
+
 .column-wide {
   width: 62%;
   float: left;
-  min-height: 175px;
 }
 
 .title {
@@ -52,6 +54,9 @@ h2 {
   max-height: 30em;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
 
 
 /* Header & Footer
@@ -93,6 +98,19 @@ footer {
     background: #EDF2F4;
 }
 
+h3 ~ p {
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 4em;
+}
+
+.job-description p:first-of-type {
+  margin-top: 0;
+
+}
+
 .Projects {
     background: #6AC59C;
 }
@@ -102,4 +120,8 @@ footer {
 ------------------------------------*/
 .education {
     background: #8D99AE;
+}
+
+h3 ~ p{
+  margin-top: 1em;
 }
