@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maher Rahman | Resume</title>
@@ -10,7 +11,14 @@
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+      <nav>
+        <a href="#about"> About </a>
+        <a href="#education"> Education </a>
+        <a href="#research"> Research/Internship</a>
+        <a href="#projects"> Projects/Presentations </a>
+        <a href="#contact"> Contact </a>
+      </nav>
         <div class="content">
             <img class="profile-img" src="Maher-Rahman.jpg" alt="Maher Rahman">
             
@@ -20,14 +28,14 @@
               <p> Just a CS Student trying to find his place in the world </p>
             </div>
         </div>
+        <a href="Maher_Rahman_Resume.pdf" class="btn download" download>Download Resume Pdf</a>
     </header>
     
     <main>
       <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content">
                 <h2>Education</h2>
-
                 <!-- School details -->
                 <h3>The University of Texas at Austin - Austin, Tx</h3>
                 <p>B.S. Computer Science honor</p>
@@ -36,7 +44,7 @@
             </div>
         </section>
         <!-- // Research/Internship Experience -->
-        <section class="work">
+        <section id="research" class="research">
             <div class="content">
                 <h2>Research/Internships</h2>
 
@@ -80,9 +88,7 @@
                     <p>
                       Helped maintain old code compiled in Sun Workshop into a new version of Java, for better readibility and usability
                     </p>
-                    <p> Converted output from the java program into a format that R-Studio can use to help visualize data using an open source project called FastR</p>
-
-                    
+                    <p> Converted output from the java program into a format that R-Studio can use to help visualize data using an open source project called FastR</p>      
                 </div>
                 
                 <!-- Experience 4 -->
@@ -102,7 +108,7 @@
             </div>
         </section>
         
-        <section class="Projects">
+        <section id="projects" class="Projects">
             <div class="content">
                 <h2>Projects/Presentations</h2>
                 
@@ -137,27 +143,22 @@
                 <div class = "column-wide  job-description">
                     <p> Created software for Jibo, a small robot assistant to associate emotions with the color of an image it is presented using Google's Cloud Color API
                     </p>
-                </div>
-
-            
+                </div>   
           </div>
         </section>
-    </main>
+    </main>  
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content">
-            <h2>Feel free to message me!</h2>
-            
+            <h2>Feel free to message me!</h2>  
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="MaherRahman1@gmail.com" target=_blank>MaherRahman1@gmail.com</a>
-                <a href="https://github.com/MaherRahman" target=_blank>Github</a>
-                <a href="https://www.linkedin.com/in/maher-rahman-498277136/" target=_blank>LinkedIn
-                </a>
-                <a href="https://www.facebook.com/maher.rahman.7" target=_blank>Facebook</a>
+                <a href="MaherRahman1@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/MaherRahman" target=_blank><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/maher-rahman-498277136/" target=_blank><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/maher.rahman.7" target=_blank><i class="fab fa-facebook-square"></i></a>
             </div>
-
             <p>Copyright 2018 Maher Rahman</p>
         </div>
     </footer>
