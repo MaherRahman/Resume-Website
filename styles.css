@@ -96,7 +96,7 @@ footer {
 }
 .contact-info a {
   padding: 10px;
-  display: inline-block;
+  display: inline-flex;
 }
 
 /* Navigation styles
