@@ -7,4 +7,6 @@ What works, and what doesnt, and to see if I can make anything cool!
 
 I've also added responsive designs to that it can feel more fluid on different screens and displays. It wasn't apparant to me originally until I wanted to view my website on my phone. 
 
+The website will soon be updated to include React and Node.js. But as of right now, the website is complete
+
 The website can be viewed at http://www.cs.utexas.edu/~maher/
